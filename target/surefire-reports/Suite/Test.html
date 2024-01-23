@@ -57,9 +57,9 @@ function toggleAllBoxes() {
 <tr>
 <td>Tests passed/Failed/Skipped:</td><td>14/1/0</td>
 </tr><tr>
-<td>Started on:</td><td>Wed Jan 10 23:51:59 IST 2024</td>
+<td>Started on:</td><td>Tue Jan 23 15:36:05 IST 2024</td>
 </tr>
-<tr><td>Total time:</td><td>255 seconds (255434 ms)</td>
+<tr><td>Total time:</td><td>221 seconds (221527 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -77,14 +77,15 @@ function toggleAllBoxes() {
 </tr>
 <tr>
 <td title='Testcases.Tc_02_Signuppage.Signup()'><b>Signup</b><br>Test class: Testcases.Tc_02_Signuppage<br>Parameters: Mr, Testing, Test, India, 03-02-2000, 8072231830, dummytesting23541@gmail.com, Test@1234, Test@1234</td>
-<td><div><pre>org.openqa.selenium.interactions.MoveTargetOutOfBoundsException: move target out of bounds
-  (Session info: chrome=120.0.6099.216)
+<td><div><pre>org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;select id=&quot;&quot; class=&quot;form-control form-select&quot; name=&quot;&quot; tabindex=&quot;0&quot;&gt;...&lt;/select&gt; is not clickable at point (255, 625). Other element would receive the click: &lt;div role=&quot;dialog&quot; aria-modal=&quot;true&quot; class=&quot;fade modal show&quot; tabindex=&quot;-1&quot; style=&quot;display: block;&quot;&gt;...&lt;/div&gt;
+  (Session info: chrome=120.0.6099.225)
 Build info: version: &apos;4.16.1&apos;, revision: &apos;9b4c83354e&apos;
 System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.9&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [a4cb0d444d971c049ef109924dfb0514, actions {actions=[org.openqa.selenium.interactions.Sequence@6c538eb2]}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.216, chrome: {chromedriverVersion: 120.0.6099.109 (3419140ab66..., userDataDir: C:\Users\karth\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59358}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59358/devtoo..., se:cdpVersion: 120.0.6099.216, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: a4cb0d444d971c049ef109924dfb0514
+Command: [da344072a8061d784ca95724e4af912a, clickElement {id=652DDE4119618A9B605299CD344A484A_element_4}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.225, chrome: {chromedriverVersion: 120.0.6099.109 (3419140ab66..., userDataDir: C:\Users\karth\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:65101}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:65101/devtoo..., se:cdpVersion: 120.0.6099.225, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (da344072a8061d784ca95724e4af912a)] -&gt; xpath: //select[@class=&apos;form-control form-select&apos;]]
+Session ID: da344072a8061d784ca95724e4af912a
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
@@ -92,22 +93,23 @@ Session ID: a4cb0d444d971c049ef109924dfb0514
 	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:200)
 	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:523)
-	at org.openqa.selenium.remote.RemoteWebDriver.perform(RemoteWebDriver.java:609)
-	at org.openqa.selenium.interactions.Actions$BuiltAction.perform(Actions.java:598)
-	at org.openqa.selenium.interactions.Actions.perform(Actions.java:567)
-	at Utilities.Utility.mouseclick(Utility.java:151)
-	at PageObject.Signuppage.submtbtn(Signuppage.java:104)
-	at Testcases.Tc_02_Signuppage.Signup(Tc_02_Signuppage.java:37)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:224)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:77)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at jdk.proxy2/jdk.proxy2.$Proxy13.click(Unknown Source)
+	at PageObject.Signuppage.getcountry(Signuppage.java:78)
+	at Testcases.Tc_02_Signuppage.Signup(Tc_02_Signuppage.java:28)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-... Removed 36 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace65168514", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace65168514'><pre>org.openqa.selenium.interactions.MoveTargetOutOfBoundsException: move target out of bounds
-  (Session info: chrome=120.0.6099.216)
+... Removed 40 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace609375192", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace609375192'><pre>org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;select id=&quot;&quot; class=&quot;form-control form-select&quot; name=&quot;&quot; tabindex=&quot;0&quot;&gt;...&lt;/select&gt; is not clickable at point (255, 625). Other element would receive the click: &lt;div role=&quot;dialog&quot; aria-modal=&quot;true&quot; class=&quot;fade modal show&quot; tabindex=&quot;-1&quot; style=&quot;display: block;&quot;&gt;...&lt;/div&gt;
+  (Session info: chrome=120.0.6099.225)
 Build info: version: &apos;4.16.1&apos;, revision: &apos;9b4c83354e&apos;
 System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.9&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [a4cb0d444d971c049ef109924dfb0514, actions {actions=[org.openqa.selenium.interactions.Sequence@6c538eb2]}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.216, chrome: {chromedriverVersion: 120.0.6099.109 (3419140ab66..., userDataDir: C:\Users\karth\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59358}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59358/devtoo..., se:cdpVersion: 120.0.6099.216, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: a4cb0d444d971c049ef109924dfb0514
+Command: [da344072a8061d784ca95724e4af912a, clickElement {id=652DDE4119618A9B605299CD344A484A_element_4}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.225, chrome: {chromedriverVersion: 120.0.6099.109 (3419140ab66..., userDataDir: C:\Users\karth\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:65101}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:65101/devtoo..., se:cdpVersion: 120.0.6099.225, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (da344072a8061d784ca95724e4af912a)] -&gt; xpath: //select[@class=&apos;form-control form-select&apos;]]
+Session ID: da344072a8061d784ca95724e4af912a
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -120,12 +122,16 @@ Session ID: a4cb0d444d971c049ef109924dfb0514
 	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:200)
 	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:523)
-	at org.openqa.selenium.remote.RemoteWebDriver.perform(RemoteWebDriver.java:609)
-	at org.openqa.selenium.interactions.Actions$BuiltAction.perform(Actions.java:598)
-	at org.openqa.selenium.interactions.Actions.perform(Actions.java:567)
-	at Utilities.Utility.mouseclick(Utility.java:151)
-	at PageObject.Signuppage.submtbtn(Signuppage.java:104)
-	at Testcases.Tc_02_Signuppage.Signup(Tc_02_Signuppage.java:37)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:224)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:77)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at jdk.proxy2/jdk.proxy2.$Proxy13.click(Unknown Source)
+	at PageObject.Signuppage.getcountry(Signuppage.java:78)
+	at Testcases.Tc_02_Signuppage.Signup(Tc_02_Signuppage.java:28)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -159,7 +165,7 @@ Session ID: a4cb0d444d971c049ef109924dfb0514
 	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
 </pre></div></td>
-<td>19</td>
+<td>7</td>
 <td>Testcases.Tc_02_Signuppage@305ffe9e</td></tr>
 </table><p>
 <table width='100%' border='1' class='invocation-passed'>
@@ -171,27 +177,37 @@ Session ID: a4cb0d444d971c049ef109924dfb0514
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='Testcases.Tc_05_Search_Flightpage.oneway_trip()'><b>oneway_trip</b><br>Test class: Testcases.Tc_05_Search_Flightpage</td>
+<td title='Testcases.Tc_09_Verify_menuitems.checkinmenu_verify()'><b>checkinmenu_verify</b><br>Test class: Testcases.Tc_09_Verify_menuitems</td>
 <td></td>
-<td>3</td>
-<td>Testcases.Tc_05_Search_Flightpage@61c4eee0</td></tr>
+<td>0</td>
+<td>Testcases.Tc_09_Verify_menuitems@1972e513</td></tr>
 <tr>
-<td title='Testcases.Tc_06_Select_Flightpage.SelectFlight()'><b>SelectFlight</b><br>Test class: Testcases.Tc_06_Select_Flightpage</td>
+<td title='Testcases.Tc_04_Loginpage_email.Login_using_email()'><b>Login_using_email</b><br>Test class: Testcases.Tc_04_Loginpage_email</td>
 <td></td>
-<td>11</td>
-<td>Testcases.Tc_06_Select_Flightpage@6f10d5b6</td></tr>
+<td>5</td>
+<td>Testcases.Tc_04_Loginpage_email@302c971f</td></tr>
 <tr>
-<td title='Testcases.Tc_03_Loginpage_Mobno.Login_using_mobile()'><b>Login_using_mobile</b><br>Test class: Testcases.Tc_03_Loginpage_Mobno<br>Parameters: 8.07223183E8, Test@12</td>
+<td title='Testcases.Tc_01_Navigate_to_Homepage.Homepgae_verify()'><b>Homepgae_verify</b><br>Test class: Testcases.Tc_01_Navigate_to_Homepage</td>
+<td></td>
+<td>0</td>
+<td>Testcases.Tc_01_Navigate_to_Homepage@1040be71</td></tr>
+<tr>
+<td title='Testcases.Tc_03_Loginpage_Mobno.Login_using_mobile()'><b>Login_using_mobile</b><br>Test class: Testcases.Tc_03_Loginpage_Mobno<br>Parameters: `, Test@1234</td>
 <td></td>
 <td>5</td>
 <td>Testcases.Tc_03_Loginpage_Mobno@609e8838</td></tr>
 <tr>
-<td title='Testcases.Tc_04_Loginpage_email.Login_using_email()'><b>Login_using_email</b><br>Test class: Testcases.Tc_04_Loginpage_email</td>
+<td title='Testcases.Tc_05_Search_Flightpage.round_trip()'><b>round_trip</b><br>Test class: Testcases.Tc_05_Search_Flightpage</td>
 <td></td>
-<td>6</td>
-<td>Testcases.Tc_04_Loginpage_email@302c971f</td></tr>
+<td>12</td>
+<td>Testcases.Tc_05_Search_Flightpage@61c4eee0</td></tr>
 <tr>
-<td title='Testcases.Tc_03_Loginpage_Mobno.Login_using_mobile()'><b>Login_using_mobile</b><br>Test class: Testcases.Tc_03_Loginpage_Mobno<br>Parameters: `, Test@1234</td>
+<td title='Testcases.Tc_09_Verify_menuitems.ManageBookingmenu_verify()'><b>ManageBookingmenu_verify</b><br>Test class: Testcases.Tc_09_Verify_menuitems</td>
+<td></td>
+<td>0</td>
+<td>Testcases.Tc_09_Verify_menuitems@1972e513</td></tr>
+<tr>
+<td title='Testcases.Tc_03_Loginpage_Mobno.Login_using_mobile()'><b>Login_using_mobile</b><br>Test class: Testcases.Tc_03_Loginpage_Mobno<br>Parameters: 8.07223183E9, Test@1234</td>
 <td></td>
 <td>5</td>
 <td>Testcases.Tc_03_Loginpage_Mobno@609e8838</td></tr>
@@ -201,45 +217,35 @@ Session ID: a4cb0d444d971c049ef109924dfb0514
 <td>5</td>
 <td>Testcases.Tc_03_Loginpage_Mobno@609e8838</td></tr>
 <tr>
-<td title='Testcases.Tc_05_Search_Flightpage.round_trip()'><b>round_trip</b><br>Test class: Testcases.Tc_05_Search_Flightpage</td>
-<td></td>
-<td>3</td>
-<td>Testcases.Tc_05_Search_Flightpage@61c4eee0</td></tr>
-<tr>
-<td title='Testcases.Tc_03_Loginpage_Mobno.Login_using_mobile()'><b>Login_using_mobile</b><br>Test class: Testcases.Tc_03_Loginpage_Mobno<br>Parameters: 8.07223183E9, Test@1234</td>
-<td></td>
-<td>13</td>
-<td>Testcases.Tc_03_Loginpage_Mobno@609e8838</td></tr>
-<tr>
-<td title='Testcases.Tc_08_Paymentpage.Paymentpage()'><b>Paymentpage</b><br>Test class: Testcases.Tc_08_Paymentpage</td>
-<td></td>
-<td>20</td>
-<td>Testcases.Tc_08_Paymentpage@35841320</td></tr>
-<tr>
-<td title='Testcases.Tc_07_Bookingformpage.Bookingpage()'><b>Bookingpage</b><br>Test class: Testcases.Tc_07_Bookingformpage</td>
-<td></td>
-<td>33</td>
-<td>Testcases.Tc_07_Bookingformpage@7ae0a9ec</td></tr>
-<tr>
-<td title='Testcases.Tc_09_Verify_menuitems.ManageBookingmenu_verify()'><b>ManageBookingmenu_verify</b><br>Test class: Testcases.Tc_09_Verify_menuitems</td>
-<td></td>
-<td>0</td>
-<td>Testcases.Tc_09_Verify_menuitems@1972e513</td></tr>
-<tr>
-<td title='Testcases.Tc_09_Verify_menuitems.checkinmenu_verify()'><b>checkinmenu_verify</b><br>Test class: Testcases.Tc_09_Verify_menuitems</td>
-<td></td>
-<td>0</td>
-<td>Testcases.Tc_09_Verify_menuitems@1972e513</td></tr>
-<tr>
-<td title='Testcases.Tc_01_Navigate_to_Homepage.Homepgae_verify()'><b>Homepgae_verify</b><br>Test class: Testcases.Tc_01_Navigate_to_Homepage</td>
-<td></td>
-<td>0</td>
-<td>Testcases.Tc_01_Navigate_to_Homepage@1040be71</td></tr>
-<tr>
 <td title='Testcases.Tc_09_Verify_menuitems.Flightstatusmenu_verify()'><b>Flightstatusmenu_verify</b><br>Test class: Testcases.Tc_09_Verify_menuitems</td>
 <td></td>
 <td>0</td>
 <td>Testcases.Tc_09_Verify_menuitems@1972e513</td></tr>
+<tr>
+<td title='Testcases.Tc_07_Bookingformpage.Bookingpage()'><b>Bookingpage</b><br>Test class: Testcases.Tc_07_Bookingformpage</td>
+<td></td>
+<td>24</td>
+<td>Testcases.Tc_07_Bookingformpage@7ae0a9ec</td></tr>
+<tr>
+<td title='Testcases.Tc_08_Paymentpage.Paymentpage()'><b>Paymentpage</b><br>Test class: Testcases.Tc_08_Paymentpage</td>
+<td></td>
+<td>22</td>
+<td>Testcases.Tc_08_Paymentpage@35841320</td></tr>
+<tr>
+<td title='Testcases.Tc_06_Select_Flightpage.SelectFlight()'><b>SelectFlight</b><br>Test class: Testcases.Tc_06_Select_Flightpage</td>
+<td></td>
+<td>16</td>
+<td>Testcases.Tc_06_Select_Flightpage@6f10d5b6</td></tr>
+<tr>
+<td title='Testcases.Tc_05_Search_Flightpage.oneway_trip()'><b>oneway_trip</b><br>Test class: Testcases.Tc_05_Search_Flightpage</td>
+<td></td>
+<td>2</td>
+<td>Testcases.Tc_05_Search_Flightpage@61c4eee0</td></tr>
+<tr>
+<td title='Testcases.Tc_03_Loginpage_Mobno.Login_using_mobile()'><b>Login_using_mobile</b><br>Test class: Testcases.Tc_03_Loginpage_Mobno<br>Parameters: 8.07223183E8, Test@12</td>
+<td></td>
+<td>5</td>
+<td>Testcases.Tc_03_Loginpage_Mobno@609e8838</td></tr>
 </table><p>
 </body>
 </html>

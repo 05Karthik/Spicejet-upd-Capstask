@@ -3,14 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="Testcases.Tc_02_Signuppage">
+      <class name="Testcases.Tc_07_Bookingformpage">
         <methods>
           <include name="startup"/>
-          <include name="Signup" invocation-numbers="0"/>
+          <include name="Bookingpage"/>
           <include name="close"/>
-          <include name="setup"/>
         </methods>
-      </class> <!-- Testcases.Tc_02_Signuppage -->
+      </class> <!-- Testcases.Tc_07_Bookingformpage -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

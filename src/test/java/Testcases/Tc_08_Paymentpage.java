@@ -32,5 +32,5 @@ public class Tc_08_Paymentpage extends Baseclass{
 		Thread.sleep(2000);
 	//	pp.via_UPI();
 	   }
-	// This page have some issue so further proceed is not working .im consider with mentor also told drop this page only write a code only,so i commented this process
+	// This page have some issue so further proceed is not working .I'm consider with mentor also told drop this page only write a code only,so i commented this process
 }
