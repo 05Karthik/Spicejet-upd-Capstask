@@ -102,6 +102,7 @@ public class Signuppage extends Utility{
 			}
 			public void submtbtn() {
 				mouseclick(agreebox);
+			//	mouseclick(submitbtn);
 				submitbtn.click();
 			}
 			

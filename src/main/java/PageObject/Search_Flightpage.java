@@ -37,7 +37,7 @@ public class Search_Flightpage extends Utility{
 			@FindBy(xpath="(//div[@class='css-1dbjc4n'])[55]")
 			WebElement departuresection;
 			
-			@FindBy(xpath="(//div[text()=\"25\"])[1]")
+			@FindBy(xpath="(//div[text()=\"27\"])[1]")
 			WebElement selectdatedepart;
 			
 			@FindBy(xpath="//div[@class='css-1dbjc4n r-1loqt21 r-u8s1d r-11xbo3g r-1v2oles r-1otgn73 r-16zfatd r-eafdt9 r-1i6wzkk r-lrvibr r-184en5c']")
@@ -46,7 +46,7 @@ public class Search_Flightpage extends Utility{
 			@FindBy(xpath="(//div[@class='css-1dbjc4n'])[56]")
 			WebElement returnsection;
 			
-			@FindBy(xpath="(//div[text()=\"28\"])[1]")
+			@FindBy(xpath="(//div[text()=\"29\"])[1]")
 			WebElement selectdatereturn;
 			
 			@FindBy(xpath="(//div[@class='css-1dbjc4n r-1awozwy r-18u37iz r-1wtj0ep'])[5]")

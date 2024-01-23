@@ -1,61 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="15" passed="15" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-01-23T15:26:29 IST" name="Default suite" finished-at="2024-01-23T15:30:48 IST" duration-ms="259016">
+  <suite started-at="2024-01-23T17:18:08 IST" name="Default suite" finished-at="2024-01-23T17:18:37 IST" duration-ms="28734">
     <groups>
     </groups>
-    <test started-at="2024-01-23T15:26:29 IST" name="Default test" finished-at="2024-01-23T15:30:48 IST" duration-ms="259016">
-      <class name="Testcases.Tc_04_Loginpage_email">
-        <test-method is-config="true" signature="startup()[pri:0, instance:Testcases.Tc_04_Loginpage_email@7dcf94f8]" started-at="2024-01-23T15:26:29 IST" name="startup" finished-at="2024-01-23T15:26:36 IST" duration-ms="7133" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- startup -->
-        <test-method signature="Login_using_email()[pri:4, instance:Testcases.Tc_04_Loginpage_email@7dcf94f8]" started-at="2024-01-23T15:26:36 IST" name="Login_using_email" finished-at="2024-01-23T15:26:42 IST" duration-ms="6037" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Login_using_email -->
-        <test-method is-config="true" signature="close()[pri:0, instance:Testcases.Tc_04_Loginpage_email@7dcf94f8]" started-at="2024-01-23T15:26:42 IST" name="close" finished-at="2024-01-23T15:26:42 IST" duration-ms="227" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- close -->
-      </class> <!-- Testcases.Tc_04_Loginpage_email -->
-      <class name="Testcases.Tc_05_Search_Flightpage">
-        <test-method is-config="true" signature="startup()[pri:0, instance:Testcases.Tc_05_Search_Flightpage@6bb4dd34]" started-at="2024-01-23T15:28:41 IST" name="startup" finished-at="2024-01-23T15:28:49 IST" duration-ms="7715" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- startup -->
-        <test-method signature="oneway_trip()[pri:5, instance:Testcases.Tc_05_Search_Flightpage@6bb4dd34]" started-at="2024-01-23T15:28:49 IST" name="oneway_trip" finished-at="2024-01-23T15:28:56 IST" duration-ms="7024" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- oneway_trip -->
-        <test-method is-config="true" signature="close()[pri:0, instance:Testcases.Tc_05_Search_Flightpage@6bb4dd34]" started-at="2024-01-23T15:28:56 IST" name="close" finished-at="2024-01-23T15:28:56 IST" duration-ms="195" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- close -->
-        <test-method is-config="true" signature="startup()[pri:0, instance:Testcases.Tc_05_Search_Flightpage@6bb4dd34]" started-at="2024-01-23T15:28:56 IST" name="startup" finished-at="2024-01-23T15:29:04 IST" duration-ms="7413" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- startup -->
-        <test-method signature="round_trip()[pri:6, instance:Testcases.Tc_05_Search_Flightpage@6bb4dd34]" started-at="2024-01-23T15:29:04 IST" name="round_trip" finished-at="2024-01-23T15:29:11 IST" duration-ms="7228" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- round_trip -->
-        <test-method is-config="true" signature="close()[pri:0, instance:Testcases.Tc_05_Search_Flightpage@6bb4dd34]" started-at="2024-01-23T15:29:11 IST" name="close" finished-at="2024-01-23T15:29:11 IST" duration-ms="199" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- close -->
-      </class> <!-- Testcases.Tc_05_Search_Flightpage -->
+    <test started-at="2024-01-23T17:18:08 IST" name="Default test" finished-at="2024-01-23T17:18:37 IST" duration-ms="28734">
       <class name="Testcases.Tc_02_Signuppage">
-        <test-method is-config="true" signature="setup()[pri:0, instance:Testcases.Tc_02_Signuppage@7d9f158f]" started-at="2024-01-23T15:26:29 IST" name="setup" finished-at="2024-01-23T15:26:29 IST" duration-ms="14" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:Testcases.Tc_02_Signuppage@22555ebf]" started-at="2024-01-23T17:18:08 IST" name="setup" finished-at="2024-01-23T17:18:08 IST" duration-ms="12" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method is-config="true" signature="startup()[pri:0, instance:Testcases.Tc_02_Signuppage@7d9f158f]" started-at="2024-01-23T15:29:11 IST" name="startup" finished-at="2024-01-23T15:29:20 IST" duration-ms="8803" status="PASS">
+        <test-method is-config="true" signature="startup()[pri:0, instance:Testcases.Tc_02_Signuppage@22555ebf]" started-at="2024-01-23T17:18:09 IST" name="startup" finished-at="2024-01-23T17:18:17 IST" duration-ms="8569" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startup -->
-        <test-method signature="Signup(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:2, instance:Testcases.Tc_02_Signuppage@7d9f158f]" started-at="2024-01-23T15:29:20 IST" name="Signup" data-provider="Testdata" finished-at="2024-01-23T15:29:39 IST" duration-ms="19130" status="PASS">
+        <test-method signature="Signup(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:2, instance:Testcases.Tc_02_Signuppage@22555ebf]" started-at="2024-01-23T17:18:17 IST" name="Signup" data-provider="Testdata" finished-at="2024-01-23T17:18:36 IST" duration-ms="19132" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -106,207 +66,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Signup -->
-        <test-method is-config="true" signature="close()[pri:0, instance:Testcases.Tc_02_Signuppage@7d9f158f]" started-at="2024-01-23T15:29:39 IST" name="close" finished-at="2024-01-23T15:29:39 IST" duration-ms="222" status="PASS">
+        <test-method is-config="true" signature="close()[pri:0, instance:Testcases.Tc_02_Signuppage@22555ebf]" started-at="2024-01-23T17:18:36 IST" name="close" finished-at="2024-01-23T17:18:37 IST" duration-ms="230" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- close -->
       </class> <!-- Testcases.Tc_02_Signuppage -->
-      <class name="Testcases.Tc_03_Loginpage_Mobno">
-        <test-method is-config="true" signature="setup()[pri:0, instance:Testcases.Tc_03_Loginpage_Mobno@2a5c8d3f]" started-at="2024-01-23T15:26:29 IST" name="setup" finished-at="2024-01-23T15:26:29 IST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method is-config="true" signature="startup()[pri:0, instance:Testcases.Tc_03_Loginpage_Mobno@2a5c8d3f]" started-at="2024-01-23T15:26:43 IST" name="startup" finished-at="2024-01-23T15:26:45 IST" duration-ms="1650" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- startup -->
-        <test-method signature="Login_using_mobile(java.lang.String,java.lang.String)[pri:3, instance:Testcases.Tc_03_Loginpage_Mobno@2a5c8d3f]" started-at="2024-01-23T15:26:45 IST" name="Login_using_mobile" data-provider="Testdata" finished-at="2024-01-23T15:26:56 IST" duration-ms="11448" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[8.07223183E9]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[`]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Login_using_mobile -->
-        <test-method is-config="true" signature="close()[pri:0, instance:Testcases.Tc_03_Loginpage_Mobno@2a5c8d3f]" started-at="2024-01-23T15:26:56 IST" name="close" finished-at="2024-01-23T15:26:57 IST" duration-ms="252" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- close -->
-        <test-method is-config="true" signature="startup()[pri:0, instance:Testcases.Tc_03_Loginpage_Mobno@2a5c8d3f]" started-at="2024-01-23T15:26:57 IST" name="startup" finished-at="2024-01-23T15:27:04 IST" duration-ms="7073" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- startup -->
-        <test-method signature="Login_using_mobile(java.lang.String,java.lang.String)[pri:3, instance:Testcases.Tc_03_Loginpage_Mobno@2a5c8d3f]" started-at="2024-01-23T15:27:04 IST" name="Login_using_mobile" data-provider="Testdata" finished-at="2024-01-23T15:27:09 IST" duration-ms="5592" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[`]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Test@1234]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Login_using_mobile -->
-        <test-method is-config="true" signature="close()[pri:0, instance:Testcases.Tc_03_Loginpage_Mobno@2a5c8d3f]" started-at="2024-01-23T15:27:09 IST" name="close" finished-at="2024-01-23T15:27:09 IST" duration-ms="154" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- close -->
-        <test-method is-config="true" signature="startup()[pri:0, instance:Testcases.Tc_03_Loginpage_Mobno@2a5c8d3f]" started-at="2024-01-23T15:27:09 IST" name="startup" finished-at="2024-01-23T15:27:17 IST" duration-ms="7294" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- startup -->
-        <test-method signature="Login_using_mobile(java.lang.String,java.lang.String)[pri:3, instance:Testcases.Tc_03_Loginpage_Mobno@2a5c8d3f]" started-at="2024-01-23T15:27:17 IST" name="Login_using_mobile" data-provider="Testdata" finished-at="2024-01-23T15:27:22 IST" duration-ms="5704" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[8.07223183E8]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Test@12]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Login_using_mobile -->
-        <test-method is-config="true" signature="close()[pri:0, instance:Testcases.Tc_03_Loginpage_Mobno@2a5c8d3f]" started-at="2024-01-23T15:27:22 IST" name="close" finished-at="2024-01-23T15:27:23 IST" duration-ms="252" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- close -->
-        <test-method is-config="true" signature="startup()[pri:0, instance:Testcases.Tc_03_Loginpage_Mobno@2a5c8d3f]" started-at="2024-01-23T15:27:23 IST" name="startup" finished-at="2024-01-23T15:27:31 IST" duration-ms="8607" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- startup -->
-        <test-method signature="Login_using_mobile(java.lang.String,java.lang.String)[pri:3, instance:Testcases.Tc_03_Loginpage_Mobno@2a5c8d3f]" started-at="2024-01-23T15:27:31 IST" name="Login_using_mobile" data-provider="Testdata" finished-at="2024-01-23T15:27:37 IST" duration-ms="5651" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[8.07223183E9]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Test@1234]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Login_using_mobile -->
-        <test-method is-config="true" signature="close()[pri:0, instance:Testcases.Tc_03_Loginpage_Mobno@2a5c8d3f]" started-at="2024-01-23T15:27:37 IST" name="close" finished-at="2024-01-23T15:27:37 IST" duration-ms="220" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- close -->
-      </class> <!-- Testcases.Tc_03_Loginpage_Mobno -->
-      <class name="Testcases.Tc_07_Bookingformpage">
-        <test-method is-config="true" signature="startup()[pri:0, instance:Testcases.Tc_07_Bookingformpage@279fedbd]" started-at="2024-01-23T15:27:37 IST" name="startup" finished-at="2024-01-23T15:27:47 IST" duration-ms="9583" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- startup -->
-        <test-method signature="Bookingpage()[pri:8, instance:Testcases.Tc_07_Bookingformpage@279fedbd]" started-at="2024-01-23T15:27:47 IST" name="Bookingpage" finished-at="2024-01-23T15:28:20 IST" duration-ms="33163" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Bookingpage -->
-        <test-method is-config="true" signature="close()[pri:0, instance:Testcases.Tc_07_Bookingformpage@279fedbd]" started-at="2024-01-23T15:28:20 IST" name="close" finished-at="2024-01-23T15:28:20 IST" duration-ms="238" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- close -->
-      </class> <!-- Testcases.Tc_07_Bookingformpage -->
-      <class name="Testcases.Tc_06_Select_Flightpage">
-        <test-method is-config="true" signature="startup()[pri:0, instance:Testcases.Tc_06_Select_Flightpage@45efd90f]" started-at="2024-01-23T15:29:39 IST" name="startup" finished-at="2024-01-23T15:29:50 IST" duration-ms="10781" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- startup -->
-        <test-method signature="SelectFlight()[pri:7, instance:Testcases.Tc_06_Select_Flightpage@45efd90f]" started-at="2024-01-23T15:29:50 IST" name="SelectFlight" finished-at="2024-01-23T15:30:08 IST" duration-ms="17736" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- SelectFlight -->
-        <test-method is-config="true" signature="close()[pri:0, instance:Testcases.Tc_06_Select_Flightpage@45efd90f]" started-at="2024-01-23T15:30:08 IST" name="close" finished-at="2024-01-23T15:30:08 IST" duration-ms="178" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- close -->
-      </class> <!-- Testcases.Tc_06_Select_Flightpage -->
-      <class name="Testcases.Tc_09_Verify_menuitems">
-        <test-method is-config="true" signature="startup()[pri:0, instance:Testcases.Tc_09_Verify_menuitems@2ad48653]" started-at="2024-01-23T15:28:20 IST" name="startup" finished-at="2024-01-23T15:28:27 IST" duration-ms="7125" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- startup -->
-        <test-method signature="Flightstatusmenu_verify()[pri:10, instance:Testcases.Tc_09_Verify_menuitems@2ad48653]" started-at="2024-01-23T15:28:27 IST" name="Flightstatusmenu_verify" finished-at="2024-01-23T15:28:27 IST" duration-ms="38" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Flightstatusmenu_verify -->
-        <test-method is-config="true" signature="close()[pri:0, instance:Testcases.Tc_09_Verify_menuitems@2ad48653]" started-at="2024-01-23T15:28:27 IST" name="close" finished-at="2024-01-23T15:28:27 IST" duration-ms="163" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- close -->
-        <test-method is-config="true" signature="startup()[pri:0, instance:Testcases.Tc_09_Verify_menuitems@2ad48653]" started-at="2024-01-23T15:28:27 IST" name="startup" finished-at="2024-01-23T15:28:33 IST" duration-ms="5918" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- startup -->
-        <test-method signature="ManageBookingmenu_verify()[pri:10, instance:Testcases.Tc_09_Verify_menuitems@2ad48653]" started-at="2024-01-23T15:28:33 IST" name="ManageBookingmenu_verify" finished-at="2024-01-23T15:28:33 IST" duration-ms="34" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- ManageBookingmenu_verify -->
-        <test-method is-config="true" signature="close()[pri:0, instance:Testcases.Tc_09_Verify_menuitems@2ad48653]" started-at="2024-01-23T15:28:33 IST" name="close" finished-at="2024-01-23T15:28:34 IST" duration-ms="154" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- close -->
-        <test-method is-config="true" signature="startup()[pri:0, instance:Testcases.Tc_09_Verify_menuitems@2ad48653]" started-at="2024-01-23T15:28:34 IST" name="startup" finished-at="2024-01-23T15:28:41 IST" duration-ms="7746" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- startup -->
-        <test-method signature="checkinmenu_verify()[pri:10, instance:Testcases.Tc_09_Verify_menuitems@2ad48653]" started-at="2024-01-23T15:28:41 IST" name="checkinmenu_verify" finished-at="2024-01-23T15:28:41 IST" duration-ms="35" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- checkinmenu_verify -->
-        <test-method is-config="true" signature="close()[pri:0, instance:Testcases.Tc_09_Verify_menuitems@2ad48653]" started-at="2024-01-23T15:28:41 IST" name="close" finished-at="2024-01-23T15:28:41 IST" duration-ms="144" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- close -->
-      </class> <!-- Testcases.Tc_09_Verify_menuitems -->
-      <class name="Testcases.Tc_08_Paymentpage">
-        <test-method is-config="true" signature="startup()[pri:0, instance:Testcases.Tc_08_Paymentpage@4b8729ff]" started-at="2024-01-23T15:30:08 IST" name="startup" finished-at="2024-01-23T15:30:11 IST" duration-ms="2565" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- startup -->
-        <test-method signature="Paymentpage()[pri:9, instance:Testcases.Tc_08_Paymentpage@4b8729ff]" started-at="2024-01-23T15:30:11 IST" name="Paymentpage" finished-at="2024-01-23T15:30:40 IST" duration-ms="29736" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Paymentpage -->
-        <test-method is-config="true" signature="close()[pri:0, instance:Testcases.Tc_08_Paymentpage@4b8729ff]" started-at="2024-01-23T15:30:40 IST" name="close" finished-at="2024-01-23T15:30:41 IST" duration-ms="167" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- close -->
-      </class> <!-- Testcases.Tc_08_Paymentpage -->
-      <class name="Testcases.Tc_01_Navigate_to_Homepage">
-        <test-method is-config="true" signature="startup()[pri:0, instance:Testcases.Tc_01_Navigate_to_Homepage@61710c6]" started-at="2024-01-23T15:30:41 IST" name="startup" finished-at="2024-01-23T15:30:48 IST" duration-ms="6899" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- startup -->
-        <test-method signature="Homepgae_verify()[pri:1, instance:Testcases.Tc_01_Navigate_to_Homepage@61710c6]" started-at="2024-01-23T15:30:48 IST" name="Homepgae_verify" finished-at="2024-01-23T15:30:48 IST" duration-ms="17" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Homepgae_verify -->
-        <test-method is-config="true" signature="close()[pri:0, instance:Testcases.Tc_01_Navigate_to_Homepage@61710c6]" started-at="2024-01-23T15:30:48 IST" name="close" finished-at="2024-01-23T15:30:48 IST" duration-ms="152" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- close -->
-      </class> <!-- Testcases.Tc_01_Navigate_to_Homepage -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
